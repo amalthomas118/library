@@ -1,0 +1,145 @@
+.body {
+    width: 1920px;
+    height: 1200px;
+    background-size: 100% 100%;
+    /* background: url(assets/booksBg.jfif); */
+}
+
+form {
+    width: 45%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #e2d0d0;
+    border-radius: 5px;
+}
+
+input {
+    margin: 10px 0px 10px 0px;
+}
+
+label {
+    /* display: block; */
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.table_table_striped {
+    width: 50%;
+    margin: 0px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    /* background-color: rgb(7, 29, 49); */
+    color: rgb(0, 0, 0);
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th,
+td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background: #f8efef;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #3abb9d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-edt {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #3abb9d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.edt {
+    width: 1px;
+    text-decoration: none;
+    padding: 2px 18px;
+    background: #3abb9d;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.dlt {
+    width: 1px;
+    text-decoration: none;
+    padding: 2px 18px;
+    background: #3abb9d;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.crtfrm {
+    border: 0px solid;
+    text-align: center;
+}
+
+.crtbtn {
+    width: max-content;
+    text-transform: uppercase;
+    background: #3abb9d;
+    color: white;
+    border-radius: 5px;
+    border: 0px solid;
+    text-align: left;
+}
+
+.bck {
+    border: 0px solid;
+}
+
+
+/* #bg {
+    color: #fff;
+    background-attachment: scroll;
+    background: #1c1e21 url(assets/lg_bg.jfif);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 100%;
+} */
