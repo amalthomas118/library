@@ -42,11 +42,21 @@ if($result == 100){
 </head>
 
 <body>
-    <h2>Registration</h2>
-    <form class="" action="" method="post" autocomplete="off">
+
+<!-- Header-->
+<div class="main-body">
+<!-- header -->
+        <header class="header">
+            <div class="title">Library</div>
+        </header>
+
+
+                <!-- Form -->
+
+    <form class="form" action="" method="post" autocomplete="off">
 
         <div class="input-group">
-            <label>Name</label>
+            <label>Username or Email</label>
             <input type="text" name="name" required value=""><br />
         </div>
 
@@ -70,10 +80,14 @@ if($result == 100){
             <input type="password" name="confirmpassword" required value=""><br />
         </div>
 
-        <input class="btn" type="submit" name="submit">
+        <input class="btn" type="submit" name="submit" value="Sign IN">
+    
+        <div class="click_here_to_login">
+        <p class="loguser" >Already a User?  
+    <a href="login.php"> Login</a> </p>
+    </div>
     </form>
-    <br>
-    <a href="login.php">Login</a>
+
 </body>
 
 </html>

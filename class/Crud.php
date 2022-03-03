@@ -80,7 +80,7 @@ class Crud extends Dbconnect
      $delete=("DELETE FROM books WHERE id=$where"); 
              $this->connection->query($delete);
              return true; 
-			 header('location:listing.php');
+			 header("Location:../user/listing.php");
     } 
 	
 	public function escape_string($value)

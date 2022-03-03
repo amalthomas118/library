@@ -39,11 +39,20 @@ else
     <title>ADD</title>
     <link rel="stylesheet" type="text/css" href="../css/../css/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="body">
+    <div class="main_body">
 
+    <header class="header">
+            <div class="title">Library</div>
+            <div class="logout">
+           <div class="lg"> <a href="logout.php">LOG OUT</a></div>
+            </div>
+        </header>
         <form method="POST" name="form" class="form">
 
             <div class="input-group">

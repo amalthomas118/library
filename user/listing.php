@@ -33,12 +33,22 @@ if(!(isset($_SESSION["login"]))){
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="body">
+    <div class="main_body">
+
+    <header class="header">
+            <div class="title">Library</div>
+            <div class="logout">
+           <div class="lg"> <a href="logout.php">LOG OUT</a></div>
+            </div>
+        </header>
 
         <table class="table_table_striped">
             <thead>
@@ -56,8 +66,8 @@ if(!(isset($_SESSION["login"]))){
 
 
                 <?php 
-   $crud= new crud();
-    $result = $crud->selectalldata("form"); 
+                    $crud= new crud();
+                     $result = $crud->selectalldata("form"); 
     
              while($data = mysqli_fetch_array($result)) 
              { 
@@ -77,8 +87,8 @@ if(!(isset($_SESSION["login"]))){
         </table>
         <form class="crtfrm" method="POST" action="add.php">
         <input class="crtbtn" type="submit" value="Create">
-    </form>
-    <a href="logout.php">LOG OUT</a>
+        </form>
+         <!-- <a href="logout.php">LOG OUT</a> -->
     </div>
   
 

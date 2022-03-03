@@ -1,17 +1,36 @@
-.body {
-    width: 1920px;
-    height: 1200px;
-    background-size: 100% 100%;
-    /* background: url(assets/booksBg.jfif); */
+body {
+    background-image: url('../images/booksBg.jfif');
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: #ffffff;
+    border: 0px;
+    margin: 0px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: xx-large;
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    text-transform: uppercase;
 }
 
 form {
+    background-color: rgb(255, 255, 255);
     width: 45%;
     margin: 50px auto;
     text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     padding: 20px;
     border: 1px solid #e2d0d0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 input {
@@ -26,6 +45,7 @@ label {
 
 .input-group {
     margin: 10px 0px 10px 0px;
+    color: #000
 }
 
 .input-group label {
@@ -45,12 +65,13 @@ label {
 
 .table_table_striped {
     width: 50%;
-    margin: 0px auto;
+    margin: 50px auto;
     border-collapse: collapse;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    /* background-color: rgb(7, 29, 49); */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
     color: rgb(0, 0, 0);
 }
 
@@ -114,6 +135,7 @@ tr:hover {
 .crtfrm {
     border: 0px solid;
     text-align: center;
+    background: none;
 }
 
 .crtbtn {
@@ -128,18 +150,56 @@ tr:hover {
 
 .bck {
     border: 0px solid;
+    background: none;
 }
 
+.click_here_to_reg {
+    background: none;
+    margin: 10px 0px 10px 0px;
+    align-items: center;
+    text-align: center;
+}
 
-/* #bg {
-    color: #fff;
-    background-attachment: scroll;
-    background: #1c1e21 url(assets/lg_bg.jfif);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    min-height: 100%;
-} */
+.newuser {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.click_here_to_login {
+    margin: 10px 0px 10px 0px;
+}
+
+.loguser {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.logout {
+    align-items: center;
+    padding: 2px 0px;
+    width: 80px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #ffffff;
+    position: absolute;
+    top: 24px;
+    right: 200px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.lg {
+    align-items: center;
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
